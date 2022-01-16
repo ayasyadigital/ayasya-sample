@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/ayasya-sample/clientlibs"/>
+    <filter root="/apps/ayasya-sample/components"/>
+    <filter root="/apps/ayasya-sample/i18n"/>
+</workspaceFilter>

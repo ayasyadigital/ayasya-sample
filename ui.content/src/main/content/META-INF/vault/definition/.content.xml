@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2022-01-16T14:38:55.294+05:30"
+    jcr:createdBy="admin"
+    jcr:description="UI content package for AYASYA SAMPLE"
+    jcr:lastModified="{Date}2022-01-16T14:38:55.294+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    acHandling="merge"
+    buildCount="3"
+    dependencies="[com.ayasya.sample:ayasya-sample.ui.apps:1.0.0-SNAPSHOT]"
+    group="com.ayasya.sample"
+    lastUnwrapped="{Date}2022-01-16T14:38:55.294+05:30"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2022-01-16T14:38:55.294+05:30"
+    lastWrappedBy="admin"
+    name="ayasya-sample.ui.content"
+    requiresRestart="{Boolean}false"
+    requiresRoot="{Boolean}false"
+    version="1.0.0-SNAPSHOT">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            root="/conf/ayasya-sample"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            root="/content/ayasya-sample"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            root="/content/dam/ayasya-sample"
+            rules="[]"/>
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="merge"
+            root="/content/experience-fragments/ayasya-sample"
+            rules="[]"/>
+    </filter>
+</jcr:root>

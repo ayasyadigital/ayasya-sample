@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-01-16T14:11:53.375+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ayasya-sample/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Signup for Membership!"
+        sling:resourceType="ayasya-sample/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ayasya-sample/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ayasya-sample/components/container">
+                <title
+                    jcr:lastModified="{Date}2022-01-16T13:44:07.776+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title=" "
+                    sling:resourceType="ayasya-sample/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ayasya-sample/components/container"
+                    layout="responsiveGrid">
+                    <container
+                        jcr:created="{Date}2022-01-16T13:44:15.733+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-16T13:45:17.199+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ayasya-sample/components/container"
+                        layout="responsiveGrid">
+                        <title
+                            cq:styleIds="[1642265193289]"
+                            jcr:created="{Date}2022-01-16T13:44:25.780+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-01-16T13:44:25.780+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ayasya-sample/components/title">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </title>
+                        <separator
+                            cq:styleIds="[1602507813268]"
+                            jcr:created="{Date}2022-01-16T13:45:54.655+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-01-16T13:45:54.655+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ayasya-sample/components/separator">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="10"/>
+                            </cq:responsive>
+                        </separator>
+                        <container
+                            jcr:created="{Date}2022-01-16T13:46:40.814+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-01-16T14:11:53.369+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ayasya-sample/components/form/container"
+                            action="/content/usergenerated/ayasya-sample/us/en/home-page/memberships/sign-up-membership/cq-gen1642321000818/"
+                            actionType="foundation/components/form/actions/store"
+                            redirect="/content/ayasya-sample/us/en/home-page/memberships/sign-up-membership/confirmation">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="4"
+                                    width="5"/>
+                            </cq:responsive>
+                            <options
+                                jcr:created="{Date}2022-01-16T13:48:27.929+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-01-16T13:49:46.817+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Membership"
+                                sling:resourceType="ayasya-sample/components/form/options"
+                                name="membership"
+                                source="local"
+                                type="radio">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        selected="false"
+                                        text="Tier 1    $10/month"
+                                        value="Tier 1 "/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        selected="true"
+                                        text="Tier 2    $12/month"
+                                        value="Tier2"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        selected="false"
+                                        text="Tier 3   $15/month"
+                                        value="Tier3"/>
+                                </items>
+                            </options>
+                            <text
+                                jcr:created="{Date}2022-01-16T13:50:37.249+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-01-16T13:52:00.135+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Contact"
+                                sling:resourceType="ayasya-sample/components/form/text"
+                                constraintMessage="Incorrect email Id"
+                                helpMessage="email@test.com"
+                                name="email"
+                                required="true"
+                                requiredMessage="Please enter email Id"
+                                rows="2"
+                                type="email"
+                                usePlaceholder="true"/>
+                            <text_932133580
+                                jcr:created="{Date}2022-01-16T13:52:09.912+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-01-16T13:53:47.776+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Phone"
+                                sling:resourceType="ayasya-sample/components/form/text"
+                                constraintMessage="Invalid phone number"
+                                helpMessage="888-8888"
+                                hideTitle="true"
+                                name="telephone"
+                                required="true"
+                                requiredMessage="Please enter details"
+                                rows="2"
+                                type="tel"
+                                usePlaceholder="true"/>
+                            <options_payment
+                                jcr:created="{Date}2022-01-16T13:54:13.982+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-01-16T13:56:09.087+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Payment"
+                                sling:resourceType="ayasya-sample/components/form/options"
+                                name="payment"
+                                source="local"
+                                type="drop-down">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        disabled="true"
+                                        selected="true"
+                                        text="Select Payment"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        selected="false"
+                                        text="Visa"
+                                        value="Visa"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        selected="false"
+                                        text="MasterCard"
+                                        value="mastercard"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        selected="false"
+                                        text="Amex"
+                                        value="amex"/>
+                                </items>
+                            </options_payment>
+                            <text_462175338
+                                jcr:created="{Date}2022-01-16T13:57:11.616+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-01-16T13:58:01.579+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="cardno"
+                                sling:resourceType="ayasya-sample/components/form/text"
+                                constraintMessage="Please enter valid card number"
+                                helpMessage="88888888888"
+                                hideTitle="true"
+                                name="cardno"
+                                required="true"
+                                requiredMessage="Please enter valid value"
+                                rows="2"
+                                type="number"
+                                usePlaceholder="true">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="2"/>
+                                </cq:responsive>
+                            </text_462175338>
+                            <button
+                                jcr:created="{Date}2022-01-16T14:01:19.881+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-01-16T14:01:19.881+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ayasya-sample/components/form/button"/>
+                        </container>
+                    </container>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <confirmation/>
+</jcr:root>

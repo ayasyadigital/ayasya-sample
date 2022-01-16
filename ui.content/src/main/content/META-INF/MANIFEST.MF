@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Content-Package-Id: com.ayasya.sample:ayasya-sample.ui.content:1.0.0-SNAPSHOT
+Content-Package-Description: UI content package for AYASYA SAMPLE
+Content-Package-Roots: /conf/ayasya-sample,/content/dam/ayasya-sample,/content
+ /experience-fragments/ayasya-sample,/content/ayasya-sample
+Content-Package-Dependencies: com.ayasya.sample:ayasya-sample.ui.apps:1.0.0-SNA
+ PSHOT
+Content-Package-Type: content
+
